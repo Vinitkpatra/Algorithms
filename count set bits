@@ -1,0 +1,14 @@
+//CPP
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int x,count=0;
+  cin >> x;
+  while(x)
+  {
+      x&=(x-1);
+      count++;
+  }
+  cout << count;
+}
